@@ -1,0 +1,36 @@
+{
+  "name": "jira-git",
+  "version": "1.0.0",
+  "description": "Scripts para conectar ao Jira, GitHub e GitLab e buscar informações sobre usuários e seus trabalhos",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "jira:user": "node src/jira/user-info.js",
+    "jira:issues": "node src/jira/user-issues.js",
+    "github:user": "node src/github/user-info.js",
+    "github:issues": "node src/github/user-issues.js",
+    "all": "node src/index.js --all",
+    "gitlab:user": "node src/gitlab/user-info.js",
+    "gitlab:issues": "node src/gitlab/user-issues.js",
+    "github:commits": "node src/github/user-commits.js",
+    "github:merges": "node src/github/user-merges.js",
+    "github:activity": "node src/github/user-activity.js",
+    "gitlab:commits": "node src/gitlab/user-commits.js",
+    "gitlab:merges": "node src/gitlab/user-merges.js",
+    "gitlab:activity": "node src/gitlab/user-activity.js"
+  },
+  "keywords": [
+    "jira",
+    "github",
+    "gitlab",
+    "api",
+    "integration"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1"
+  }
+}
