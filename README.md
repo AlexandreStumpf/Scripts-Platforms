@@ -1,4 +1,4 @@
-# Jira-Git
+# Scripts Platforms
 
 Scripts em Node.js para conectar às plataformas **Jira**, **GitHub** e **GitLab**, buscando informações sobre usuários e seus trabalhos.
 
